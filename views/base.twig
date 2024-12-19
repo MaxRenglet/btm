@@ -1,0 +1,17 @@
+<html>
+<head>
+  {{ function('wp_head') }}
+</head>
+
+	<body class="{{ body_class }}">
+    
+    	{# Main content #}
+		<main id="main">
+			{% block content %}
+				{{ _e( "Il n'y a pas de contenu") }}
+			{% endblock %}
+		</main>
+
+      {{ function('wp_footer') }}
+</body>
+</html>

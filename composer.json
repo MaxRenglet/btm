@@ -1,0 +1,17 @@
+{
+    "name": "rmax/btm",
+    "autoload": {
+        "psr-4": {
+            "Rmax\\Btm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MaximeR",
+            "email": "maxime.renglet@spade.be"
+        }
+    ],
+    "require": {
+        "timber/timber": "^2.3"
+    }
+}
